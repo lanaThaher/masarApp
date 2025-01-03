@@ -121,6 +121,8 @@ class MyLocale implements Translations {
           "112": "كلمة المرور المقدمة ضعيفة. الرجاء إدخال كلمة مرور قوية.",
           "113": "البريد الإلكتروني المستعمل",
           "114": "تم تسجيل حساب بالفعل بهذا البريد الإلكتروني",
+          "115": "لم يتم توفير البريد الإلكتروني",
+          "116": "الرجاء إدخال بريدك الإلكتروني في حقل البريد الإلكتروني"
         },
         "en": {
           "1": "Book Test Appointment",
@@ -240,6 +242,8 @@ class MyLocale implements Translations {
           "112": "The provided password is weak. Please enter a strong one.",
           "113": "Used Email",
           "114": "An account is already registered with this email",
+          "115": "No Email Provided",
+          "116": "Please fill in your email in the email field"
         }
       };
 }

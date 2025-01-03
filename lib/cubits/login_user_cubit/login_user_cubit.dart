@@ -107,8 +107,8 @@ class LoginUserCubit extends Cubit<LoginUserState> {
           close();
         },
         dismissOnTouchOutside: false,
-        title: 'No Email Provided',
-        desc: 'Please input your email address before continuing.',
+        title: "115".tr,
+        desc: "116".tr,
       ).show();
     } else if (email != "") {
       try {

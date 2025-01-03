@@ -83,7 +83,10 @@ class RegisterUserCubit extends Cubit<RegisterUserState> {
         dialogType: DialogType.info,
         animType: AnimType.topSlide,
         showCloseIcon: true,
-        btnOkOnPress: () {},
+        btnOkOnPress: () {
+          Future.delayed(
+              const Duration(seconds: 5), () => Get.offAllNamed("login"));
+        },
         dismissOnTouchOutside: false,
         title: "109".tr,
         desc: "110".tr,
@@ -123,7 +126,10 @@ class RegisterUserCubit extends Cubit<RegisterUserState> {
         dialogType: DialogType.warning,
         animType: AnimType.topSlide,
         showCloseIcon: true,
-        btnOkOnPress: () {},
+        btnOkOnPress: () {
+          Future.delayed(
+              const Duration(seconds: 5), () => Get.offAllNamed("SignUp"));
+        },
         dismissOnTouchOutside: false,
         title: "111".tr,
         desc: "112".tr,
@@ -134,7 +140,10 @@ class RegisterUserCubit extends Cubit<RegisterUserState> {
         dialogType: DialogType.error,
         animType: AnimType.topSlide,
         showCloseIcon: true,
-        btnOkOnPress: () {},
+        btnOkOnPress: () {
+          Future.delayed(
+              const Duration(seconds: 5), () => Get.offAllNamed("SignUp"));
+        },
         dismissOnTouchOutside: false,
         title: "113".tr,
         desc: "114".tr,

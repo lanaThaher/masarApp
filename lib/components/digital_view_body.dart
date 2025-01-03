@@ -81,11 +81,11 @@ class DigitalViewBody extends StatelessWidget {
                       1: FlexColumnWidth(),
                     },
                     children: [
-                      _buildTableRow("64".tr, "65".tr),
                       _buildTableRow(
                           "62".tr,
                           userData['FirstName'] + " " + userData['LastName'] ??
                               'N/A'),
+                      _buildTableRow("64".tr, "65".tr),
                       // _buildTableRow("Email", userData['email'] ?? 'N/A'),
                       _buildTableRow(
                           "66".tr, userData['Date of Birth'] ?? 'N/A'),
